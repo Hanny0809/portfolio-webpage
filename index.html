@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Hanny's Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Hanny's Portfolio</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#resume" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Resume
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Project
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!--  Theme change button -->
+          <!-- <i class="uil uil-moon change-theme" id="theme-button"></i> -->
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://github.com/Hanny0809"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+              <a
+                href="https://hanny95.tistory.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-edit-alt"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hyeonhee-cho-8272b8174/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+            </div>
+            <!--==================== HOME - IMAGE ====================-->
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    xlink:href="assets/img/profile.png"
+                    x="12"
+                    y="18"
+                  />
+                </g>
+              </svg>
+            </div>
+            <!--==================== HOME - TITLE ====================-->
+            <div class="home__data">
+              <h2 class="home__title">안녕하세요</h2>
+              <h1 class="home__subtitle">
+                프론트엔드 개발자를 꿈꾸는 조현희 입니다.
+              </h1>
+              <p class="home__description"></p>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">Personal info</span>
+
+        <div class="about__container container grid">
+          <img
+            src="assets/img/aboutme.jpg"
+            alt="프로필사진"
+            class="about__img"
+          />
+
+          <div class="about__data">
+            <p class="about__description"></p>
+
+            <div class="about__menu">
+              <ul class="about__list grid">
+                <li class="about__item">
+                  <i class="uil uil-user about__icon"></i>
+                  <div class="about__info">
+                    <h3 class="about__title">Name</h3>
+                    <span class="about__subtitle">조현희</span>
+                  </div>
+                </li>
+
+                <li class="about__item">
+                  <i class="uil uil-calendar-alt about__icon"></i>
+                  <div class="about__info">
+                    <h3 class="about__title">Birth</h3>
+                    <span class="about__subtitle">1995.08.09</span>
+                  </div>
+                </li>
+
+                <li class="about__item">
+                  <i class="uil uil-map-marker about__icon"></i>
+                  <div class="about__info">
+                    <h3 class="about__title">Address</h3>
+                    <span class="about__subtitle">세종시 고운동</span>
+                  </div>
+                </li>
+
+                <li class="about__item">
+                  <i class="uil uil-phone about__icon"></i>
+                  <div class="about__info">
+                    <h3 class="about__title">Phone</h3>
+                    <span class="about__subtitle">010.2374.8238</span>
+                  </div>
+                </li>
+
+                <li class="about__item">
+                  <i class="uil uil-envelope about__icon"></i>
+                  <div class="about__info">
+                    <h3 class="about__title">Email</h3>
+                    <span class="about__subtitle">chohyeonhee95@gmail.com</span>
+                  </div>
+                </li>
+
+                <li class="about__item">
+                  <i class="uil uil-clipboard-alt about__icon"></i>
+                  <div class="about__info">
+                    <h3 class="about__title">Certificate</h3>
+                    <span class="about__subtitle">정보처리기사(필기)</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="resume">
+        <h2 class="section__title">Resume</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase qualification__icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">중국어 전공(Chinese)</h3>
+                  <span class="qualification__subtitle"
+                    >한밭대학교(Hanbat National University)</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2014 - 2018
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">빅데이터 교육과정</h3>
+                  <span class="qualification__subtitle">미래융합교육학원</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021.06 - 12 (6개월)
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT2  ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Student Staff</h3>
+                  <span class="qualification__subtitle"
+                    >Clark institution of the Philippines (English school)</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019.02 - 2019.08
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Customer Sevice Adviser</h3>
+                  <span class="qualification__subtitle"
+                    >Concentrix in Malaysia</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019.10 - 2021.03
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Project</h2>
+        <span class="section__subtitle">Most recent project</span>
+
+        <div class="portfolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/covid-19.PNG"
+                alt="COVID-19_Tracker"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">COVID-19 Tracker</h3>
+                <p class="portfolio__description">
+                  전세계 코로나 바이러스 감염 현황 API를 이용하여 데이터를
+                  시각화 한 반응형 웹페이지
+                </p>
+                <div class="portfolio__btn">
+                  <a
+                    href="https://hanny0809.github.io/covid19-tracker-app/"
+                    target="_blank"
+                    class="button button--flex button--small portfolio__button"
+                    >Webpage
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/Hanny0809/covid19-tracker-app"
+                    target="_blank"
+                    class="button button--flex button--small portfolio__button"
+                    >Gitgub
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/bigdata.PNG"
+                alt="Bigdata Portfolio"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">빅데이터 분석 포트폴리오</h3>
+                <p class="portfolio__description">
+                  - Python을 활용한 빅데이터 분석 및 시각화 <br />
+                  - 웹 크롤링을 통해 데이터를 수집 및 전처리 <br />
+                </p>
+                <div class="portfolio__btn">
+                  <a
+                    href="https://drive.google.com/file/d/1kTiNAiDoHnJdjtrDz61qJL7sXHLHadRG/view?usp=sharing"
+                    target="_blank"
+                    class="button button--flex button--small portfolio__button"
+                    >Portfolio
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+
+                  <a
+                    href="https://github.com/Hanny0809/Bigdata_python"
+                    target="_blank"
+                    class="button button--flex button--small portfolio__button"
+                    >Gitgub
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Hanny</h1>
+            <h3 class="footer__subtitle">Frontend Developer</h3>
+          </div>
+
+          <p class="footer__copy">&#169; All copy right reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
